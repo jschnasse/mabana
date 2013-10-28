@@ -4,12 +4,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.antlr.runtime.RecognitionException;
-import org.junit.Test;
 
 @SuppressWarnings("javadoc")
 public class TestMabana {
 
-    @Test
     public void exampleUsage() throws IOException, RecognitionException {
 
 	String inputDir = "/home/jan/Desktop/mabxml";

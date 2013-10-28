@@ -1,29 +1,34 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>de.nrw.hbz</groupId>
-  <artifactId>mabana</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>Mabana</name>
-  <dependencies>
-  	<dependency>
-  		<groupId>junit</groupId>
-  		<artifactId>junit</artifactId>
-  		<version>4.11</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.culturegraph</groupId>
-  		<artifactId>metafacture-core</artifactId>
-  		<version>1.1.0</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.culturegraph</groupId>
-  		<artifactId>metafacture-mongodb</artifactId>
-  		<version>0.0.0-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.lobid</groupId>
-  		<artifactId>lodmill-rd</artifactId>
-  		<version>0.1.0-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.nrw.hbz</groupId>
+	<artifactId>mabana</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Mabana</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lobid</groupId>
+			<artifactId>lodmill-rd</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
